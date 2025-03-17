@@ -1,0 +1,32 @@
+{
+    "name": "mcp/testing-server",
+    "type": "project",
+    "description": "This is a web-based application for testing MCP servers. It was designed to demonstrate a MCP client capable of running in a typical web hosting environment.",
+    "keywords": [
+        "MCP server",
+        "MCP client",
+        "MCP SDK for PHP"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/dependencies-packagist/mcp-testing-server",
+    "authors": [
+        {
+            "name": "jundayw",
+            "email": "jundayw@126.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "mcp/mcp-sdk-php": "^1.0"
+    },
+    "suggest": {
+        "ext-pcntl": "For better process handling in CLI environments"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.x-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
